@@ -1,6 +1,6 @@
-# EBC_Summer_2024
+# EBC_Summer_2025
 
-This repository contains materials for the [Summer 2024 Columbia University SHARP Training Program Epigenetics Bootcamp](https://www.publichealth.columbia.edu/academics/non-degree-special-programs/professional-non-degree-programs/skills-health-research-professionals-sharp-training/trainings/epigenetics). 
+This repository contains materials for the [Summer 2025 Columbia University SHARP Training Program Epigenetics Bootcamp](https://www.publichealth.columbia.edu/academics/non-degree-special-programs/professional-non-degree-programs/skills-health-research-professionals-sharp-training/trainings/epigenetics). 
 
 ## Labs (update with new HTML links)
 
