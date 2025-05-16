@@ -117,6 +117,8 @@ rm(dmrcoutput.smoking,myannotation);gc()
 #'# Introduction to regional analyses with comb-p
 #' see [Pedersen et al. Bioinformatics 2012](https://academic.oup.com/bioinformatics/article/28/22/2986/240603).  
 suppressMessages(library(ENmix)) 
+#' Reload beta matrix with legacy probe names
+load("./data/processed.rda")
 
 #' Input is a data frame with colnames "chr", "start", "end", "p" and "probe"
 #' Using p-values from limma
