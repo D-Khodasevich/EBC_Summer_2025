@@ -3,7 +3,7 @@ dir.create('.Rpackages')
 .libPaths( c('.Rpackages',.libPaths() ) )
 
 fromCRAN <- c(
-   "Rcpp","openssl","CpGassoc", "rmarkdown"
+   "Rcpp","openssl","CpGassoc", "rmarkdown", "forcats"
   ,"knitr", "matrixStats","reshape","glmnet"
   ,"statmod","XML","dplyr"
   ,"pryr", "qqman", "RPMM", "MASS", "sandwich", "lmtest","foreach","doParallel"
