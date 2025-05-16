@@ -5,7 +5,7 @@ dir.create('.Rpackages')
 fromCRAN <- c(
    "Rcpp","openssl","CpGassoc", "rmarkdown", "forcats"
   ,"knitr", "matrixStats","reshape","glmnet"
-  ,"statmod","XML","dplyr"
+  ,"statmod","XML","dplyr","ggrepel"
   ,"pryr", "qqman", "RPMM", "MASS", "sandwich", "lmtest","foreach","doParallel"
   ,"magrittr","purrr","svd","devtools","stringi","data.table","ggplot2"
   )
