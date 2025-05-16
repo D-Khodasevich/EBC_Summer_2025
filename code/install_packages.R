@@ -13,7 +13,7 @@ fromCRAN <- c(
 fromBioC <- c("minfi", "missMethyl", "ENmix","IlluminaHumanMethylation450kanno.ilmn12.hg19",
                       "IlluminaHumanMethylation450kmanifest", "IlluminaHumanMethylationEPICmanifest",
                       "IlluminaHumanMethylationEPICv2anno.20a1.hg38", "IlluminaHumanMethylationEPICv2manifest", 
-                      "sva", "IlluminaHumanMethylationEPICanno.ilm10b4.hg19","illuminaio", 
+                      "sva", "IlluminaHumanMethylationEPICanno.ilm10b4.hg19","illuminaio", "sesame", 
                       "DMRcate", "shinyMethyl","bumphunter","wateRmelon","FDb.InfiniumMethylation.hg19",
                       "DMRcatedata","ChAMP","FlowSorted.Blood.450k")
 
