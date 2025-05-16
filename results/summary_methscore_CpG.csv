@@ -1,0 +1,159 @@
+"predictor","Type","Description","Citation","PMID","Link","nCpG_required","nCpG_present","nCpG_missing"
+"HorvathAge","DNAm Age","Chronological age; pan-tissue clock; HorvathAge 1","Horvath 2013","PMID 24138928","https://pubmed.ncbi.nlm.nih.gov/24138928/",353,340,13
+"Horvath2","DNAm Age","Chronological age; Skin & Blood tissues; HorvathAge 2","Horvath et al 2018","PMID 30048243","https://pubmed.ncbi.nlm.nih.gov/30048243/",391,373,18
+"HannumAge","DNAm Age","Chronological age; blood tissue","Hannum et al 2013","PMID 23177740","https://pubmed.ncbi.nlm.nih.gov/23177740/",71,62,9
+"PCHorvath1","DNAm Age","HorvathAge 1 based on PC component","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"PCHorvath2","DNAm Age","HorvathAge 2 based on PC component","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"PCHannum","DNAm Age","HannumAge based on PC component","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"Epigenetic Age (Zhang)","DNAm Age","Chronological age; blood and saliva; based on 314 CpGs","Zhang 2019","PMID 31443728","https://pubmed.ncbi.nlm.nih.gov/31443728/",514,493,21
+"cAge","DNAm Age","Chronological Age, blood and saliva","Bernabeu et al 2023","PMID 36855161","https://pubmed.ncbi.nlm.nih.gov/36855161/",3225,2997,228
+"PedBE","DNAm Age","Pediatric Buccal Epigenetic Clock; 0-20 years old, chronological age","McEwen et al 2020","PMID 31611402","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7519312/",94,93,1
+"PhenoAge","DNAm Age","Biological age, based on clinical biomarkers, blood tissue","Levine et al 2018","PMID 29676998","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5940111/",513,495,18
+"PCPhenoAge","DNAm Age","PhenoAge based on PC component","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"PACE","DNAm Age","Pace of Aging; mean of 1 biological year per chronological year; blood tissue","Belsky et al 2022","PMID 35029144","https://pubmed.ncbi.nlm.nih.gov/35029144/",173,144,29
+"Frailty","DNAm Age","Frailty index; non-frail: [0,0.1];pre-frail:(0.1,0.25);frail:[0.25,1]; blood tissue","Li et al","PMID 36071044","https://pubmed.ncbi.nlm.nih.gov/36071044/",20,19,1
+"PCGrimAge","DNAm Age","Biological age; based on plasma protein levels, clock for mortality risk; based on PC component","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"Zhang10CpG","DNAm Age","mortality risk score; based on 10 CpGs","Zhang et al 2017","PMID 28303888","https://pubmed.ncbi.nlm.nih.gov/28303888/",10,9,1
+"bAge","DNAm Age","Biological Age; standadized, blood and saliva","Bernabeu et al 2023","PMID 36855161","https://pubmed.ncbi.nlm.nih.gov/36855161/",2334,2066,268
+"bAge_Years","DNAm Age","Biological Age in unit of year, blood and saliva","Bernabeu et al 2023","PMID 36855161","https://pubmed.ncbi.nlm.nih.gov/36855161/",2334,2066,268
+"DNAmFitAge","DNAm Age","Biological age incorporating physical fitness","McGreevy et al 2023","PMID 36812475","https://pubmed.ncbi.nlm.nih.gov/36812475/",627,455,172
+"GACPC","DNAm Gestational Age","Control placental clock in weeks, placental tissues","Lee et al 2019","PMID 31235674","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6628997/",546,505,41
+"GARPC","DNAm Gestational Age","Robust placental clock in weeks, placental tissues","Lee et al 2019","PMID 31235674","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6628997/",558,509,49
+"GARRPC","DNAm Gestational Age","Refined robust placental clock in weeks, placental tissues","Lee et al 2019","PMID 31235674","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6628997/",395,363,32
+"BohlinGAge","DNAm Gestational Age","Gestational Age prediction in days using cord blood DNA","Bohlin et al 2016","PMID 27717397","https://pubmed.ncbi.nlm.nih.gov/27717397/",251,201,50
+"KnightGAge","DNAm Gestational Age","Gestational Age prediction in weeks using cord blood DNA","Knight et al 2016","PMID 27717399","https://pubmed.ncbi.nlm.nih.gov/27717399/",148,145,3
+"pcgtAge","DNAm StemCellDivisions","Average DNAm of Polycomb group target gene CpGs/Epigenetic Timer Of Cancer,epiTOC","Yang et al 2016","PMID 27716309","https://pubmed.ncbi.nlm.nih.gov/27716309/",385,359,26
+"TNSC","DNAm StemCellDivisions","Total number of stem cell divisions per stem cell, epiTOC2","Teschendorff et al 2020","PMID 32580750","https://pubmed.ncbi.nlm.nih.gov/32580750/",163,158,5
+"TNSC2","DNAm StemCellDivisions","TNSC assuming all epiTOC2 CpGs have beta-values of 0 in the fetal stage","Teschendorff et al 2020","PMID 32580750","https://pubmed.ncbi.nlm.nih.gov/32580750/",163,158,5
+"MiAge","DNAm StemCellDivisions","Mitotic Age; total number of lifetime cell divisions","Youn et al 2018","PMID 29160179","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5873367/",268,231,37
+"PCDNAmTL","DNAm TelomereLength","Telomere length, blood tissue","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"DNAmTL","DNAm TelomereLength","Telomere length, blood tissue","Lu et al 2019","PMID 31422385","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6738410/",140,106,34
+"Alcohol","DNAm Trait","Alcohol Consumption adjusting for age sex and 10 genetic PCs","McCartney et al 2018","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/30257690/",450,401,49
+"Body Fat %","DNAm Trait","Body Fat Percentage adjusting for age sex and 10 genetic PCs","McCartney et al 2019","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/30257690/",968,886,82
+"Body Mass Index","DNAm Trait","Body Mass Index adjusting for age sex and 10 genetic PCs","McCartney et al 2020","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/30257690/",1109,1026,83
+"HDL Cholesterol","DNAm Trait","HDL adjusting for age sex and 10 genetic PCs","McCartney et al 2021","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/30257690/",737,676,61
+"Smoking","DNAm Trait","Smoking Status adjusting for age sex and 10 genetic PCs","McCartney et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/30257690/",233,210,23
+"Waist:Hip Ratio","DNAm Trait","Waist:Hip Ratio adjusting for age sex and 10 genetic PCs","McCartney et al 2023","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/30257690/",226,207,19
+"DNAmGait_noAge","DNAm Trait","Gait speed","McGreevy et al 2023","PMID 36812475","https://pubmed.ncbi.nlm.nih.gov/36812475/",627,455,172
+"DNAmGait_wAge","DNAm Trait","Gait speed adjusting for age","McGreevy et al 2023","PMID 36812475","https://pubmed.ncbi.nlm.nih.gov/36812475/",627,455,172
+"DNAmGrip_noAge","DNAm Trait","Gripmax","McGreevy et al 2023","PMID 36812475","https://pubmed.ncbi.nlm.nih.gov/36812475/",627,455,172
+"DNAmGrip_wAge","DNAm Trait","Gripmax adjusting for age","McGreevy et al 2023","PMID 36812475","https://pubmed.ncbi.nlm.nih.gov/36812475/",627,455,172
+"DNAmVO2max","DNAm Trait","VO2max","McGreevy et al 2023","PMID 36812475","https://pubmed.ncbi.nlm.nih.gov/36812475/",627,455,172
+"DNAmFEV1_wAge","DNAm Trait","FEV1","McGreevy et al 2023","PMID 36812475","https://pubmed.ncbi.nlm.nih.gov/36812475/",627,455,172
+"PCPACKYRS","DNAm GrimAgeComponent","Smoking pack-years","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"PCADM","DNAm GrimAgeComponent","Adrenomedullin levels","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"PCB2M","DNAm GrimAgeComponent","Beta-2 microglobulin","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"PCCystatinC","DNAm GrimAgeComponent","Cystatin C","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"PCGDF15","DNAm GrimAgeComponent","Growth differentiation factor 15","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"PCLeptin","DNAm GrimAgeComponent","Leptin","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"PCPAI1","DNAm GrimAgeComponent","Plasminogen activation inhibitor 1","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"PCTIMP1","DNAm GrimAgeComponent","Tissue inhibitor metalloproteinase 1","Higgins-Chen et al","PMID 36277076","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9586209/",78464,72616,5848
+"ADAMTS","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",51,46,5
+"Adiponectin","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",39,34,5
+"Afamin","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",37,35,2
+"Alpha-L-iduronidase","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",67,61,6
+"Aminoacylase-1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",395,349,46
+"B2-microglobulin","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",311,275,36
+"BCAM","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",1,1,0
+"BMP-1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",67,59,8
+"CCL11","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",45,39,6
+"CCL17","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",364,332,32
+"CCL18","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",119,108,11
+"CCL21","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",98,88,10
+"CCL22","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",36,35,1
+"CCL25 C-C","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",59,51,8
+"CD163","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",151,137,14
+"CD209 antigen","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",163,147,16
+"CD48 antigen","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",17,14,3
+"CD6","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",41,33,8
+"CDL5","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",127,116,11
+"CHIT-1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",111,98,13
+"CLEC11A e1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",107,103,4
+"CLEC11A e2","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",82,77,5
+"Coagulation factor VII","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",26,21,5
+"Complement C4","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",17,12,5
+"Complement C5a","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",263,230,33
+"Complement c9","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",109,101,8
+"Contactin-4","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",45,39,6
+"CRP","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",100,86,14
+"CRTAM","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",64,57,7
+"CXCL10","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",196,164,32
+"CXCL10 soma","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",194,174,20
+"CXCL11","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",176,147,29
+"CXCL11 soma","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",51,48,3
+"CXCL9","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",56,49,7
+"E-selectin","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",126,112,14
+"Ectodysplasin-A","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",10,8,2
+"EN.RAGE","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",82,68,14
+"ENPP7","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",156,139,17
+"ESM-1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",55,51,4
+"EZR","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",32,30,2
+"FAP","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",74,65,9
+"FCER2","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",163,145,18
+"FCGR3A","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",102,95,7
+"FcRL2","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",38,33,5
+"FGF.21","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",103,87,16
+"G.CSF","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",79,63,16
+"Galectin-4","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",58,53,5
+"GDF.8","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",29,26,3
+"GHR","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",108,98,10
+"GPIba","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",179,170,9
+"Granulysin","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",52,42,10
+"Granzyme A","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",103,94,9
+"GZMA","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",13,13,0
+"HCII","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",52,46,6
+"HGF","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",72,56,16
+"HGFA","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",20,18,2
+"HGFI","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",156,143,13
+"ICAM5","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",132,119,13
+"IGFBP-1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",120,108,12
+"IGFBP-4","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",72,67,5
+"Insulin receptor","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",51,49,2
+"Interleukin-19","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",81,74,7
+"L-selectin","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",99,92,7
+"LFT","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",51,50,1
+"LGALS3BP","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",186,170,16
+"LY9","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",124,110,14
+"Lymphotoxin abeta","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",67,59,8
+"Lysozyme C","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",1,1,0
+"MIA","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",69,64,5
+"MMP-1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",262,242,20
+"MMP-12","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",257,235,22
+"MMP-2","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",1,0,1
+"MMP-9","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",96,88,8
+"MMP.1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",34,29,5
+"MRC2","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",17,16,1
+"Myeloperoxidase","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",35,32,3
+"N.CDase","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",50,40,10
+"NCAM-120","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",121,113,8
+"NEP","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",34,27,7
+"NMNAT1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",44,38,6
+"NOTCH1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",33,28,5
+"NRTK3","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",148,135,13
+"NTRK3","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",118,96,22
+"OSM","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",125,93,32
+"Osteomodulin","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",180,173,7
+"PAPP-A","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",58,54,4
+"PIGR","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",27,26,1
+"RARRES2","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",117,107,10
+"Resistin","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",21,20,1
+"S100-A9","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",27,25,2
+"Semaphorin-3E","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",51,43,8
+"SERPIN A3","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",258,240,18
+"SHBG","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",68,62,6
+"SIGLEC1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",28,26,2
+"SKR3","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",68,58,10
+"SLITRK5","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",161,143,18
+"SMPD1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",110,84,26
+"Stanniocalcin-1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",61,54,7
+"Testican-2","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",62,57,5
+"TGF.alpha","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",100,90,10
+"THBS2","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",183,163,20
+"TNFRSF17","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",103,100,3
+"TNFRSF1B","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",83,73,10
+"TPO","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",41,38,3
+"Trypsin-2","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",25,23,2
+"Tryptase beta-2","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",106,95,11
+"VCAM1","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",32,31,1
+"VEGFA","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",159,131,28
+"WFIKKN2","DNAm ProteinLevels","Plasma Protein Level","Gadd et al 2022","PMID 35023833","https://pubmed.ncbi.nlm.nih.gov/35023833/",66,63,3
