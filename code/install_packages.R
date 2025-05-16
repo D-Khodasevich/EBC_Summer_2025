@@ -27,7 +27,7 @@ if(length(toinstallCRAN >= 1)) {
 
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-BiocManager::install(version = "3.17")  # use 3.14 with older versions of R
+BiocManager::install(version = "3.20")  # use 3.14 with older versions of R
 
 #' install these from BioConductor:
 toinstallBioC <- setdiff(fromBioC, installed.packages()[,1])
