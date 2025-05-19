@@ -99,7 +99,7 @@ results1$ID <- row.names(results1)
 #' here effect size is logFC among smokers compared to non-smokers for the top hits
 head(results1[, c(1, 2, 5)])
 
-#' check with previous result on our selected CpG (running lm without CpGassoc)
+#' check with previous result on our selected CpG (running lm without limma)
 subset(results1, results1$ID == CpG.name)
 summary(lm(CpG.level~smoker,pheno))$coefficients[2, ]
 #' The effect estimates are identical
@@ -158,7 +158,7 @@ Annot <- as.data.frame(getAnnotation(IlluminaHumanMethylationEPICv2anno.20a1.hg3
 Annot <- subset(Annot, Annot$Name %in% manifest$ilmn_id)
 Annot$ID <- substr(Annot$Name, 1, 10)
 results2 <- dplyr::left_join(results2, Annot, by = "ID")
-results2 %>% arrange(P.Value) %>% dplyr::select(ID, logFC, P.Value, UCSC_RefGene_Name) %>% head(n = 10)
+results2 %>% dplyr::arrange(P.Value) %>% dplyr::select(ID, logFC, P.Value, UCSC_RefGene_Name) %>% head(n = 10)
 
 
 #' Volcano Plot-results2
