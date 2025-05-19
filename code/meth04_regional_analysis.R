@@ -79,6 +79,8 @@ suppressMessages(library(DMRcate)) # Popular package for regional DNA methylatio
 beta <- beta[manifest$probe_id, ]
 row.names(beta) <- manifest$ilmn_id
 
+#' You may receive a prompt to create AnnotationHub directory 
+#' Enter 'yes' in console to proceed
 myannotation <- cpg.annotate("array", na.omit(beta), analysis.type="differential",arraytype="EPICv2",
                              epicv2Filter = "mean", 
                              what="Beta",design=model, coef=2)
@@ -126,14 +128,14 @@ EWAS.limma <- eBayes(lmFit(beta, design=model))
 EWAS.limma <- topTable(EWAS.limma, coef=2, number=Inf, sort.by="p")
 EWAS.limma <- EWAS.limma[!is.na(EWAS.limma$logFC),]
 #' Add chr and pos
-EWAS.limma <- cbind(EWAS.limma, chr = Annot[,"chr"][match(rownames(EWAS.limma), rownames(Annot))])
-EWAS.limma <- cbind(EWAS.limma, pos = Annot[,"pos"][match(rownames(EWAS.limma), rownames(Annot))])
+EWAS.limma <- cbind(EWAS.limma, chr = Annot[,"chr"][match(rownames(EWAS.limma), Annot$ID)])
+EWAS.limma <- cbind(EWAS.limma, pos = Annot[,"pos"][match(rownames(EWAS.limma), Annot$ID)])
+EWAS.limma$chr <- as.numeric(gsub("chr", "", EWAS.limma$chr)) # chr as numeric
 EWAS.limma$end <- EWAS.limma$pos
 #' keep only needed columns
 EWAS.combp <- EWAS.limma[,c("chr", "pos", "end", "P.Value")]
 colnames(EWAS.combp) <- c("chr", "start", "end", "p")
 EWAS.combp$probe = rownames(EWAS.combp)
-EWAS.limma$chr <- as.numeric(gsub("chr", "", EWAS.limma$chr)) # chr as numeric
 # Run combp. Results saved in working directory. For efficiency, we'll use output already generated.
 # combp(EWAS.combp, region_plot = F, mht_plot = F, dist.cutoff=1000, seed=0.001, verbose = T) 
 # dist.cutoff = maximum distrance between basepairs to combine adjacent DMRs; seed = FDR significance threshold for initial selection of DMRs
@@ -141,8 +143,8 @@ EWAS.limma$chr <- as.numeric(gsub("chr", "", EWAS.limma$chr)) # chr as numeric
 #' read output
 combp.result = read.csv('./results/resu_combp.csv')
 combp.result[1:5, ]
-# Regions chr1: 92946131-92947588, chr2: 233284661-233285454, chr2: 27665079-27665711, chr3: 21792434-21793157, chr5: 373299-373887, chr6: 32120773-32121261, and chr14: 106329158-106330538 overlap with DMRcate results. 
-# comb-p has higher power to detect small effect sizes, but increased Type I error; see [Malid et al. Briefings in Bioinformatics 2019](https://academic.oup.com/bib/article/20/6/2224/5096828)
+# comb-p has higher power to detect small effect sizes, but increased Type I error
+# See [Malid et al. Briefings in Bioinformatics 2019](https://academic.oup.com/bib/article/20/6/2224/5096828)
 
 #' Other popular options for conducting Regional DNA methylation analysis in R are Aclust and bumphunter
 
