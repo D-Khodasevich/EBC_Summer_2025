@@ -32,7 +32,7 @@ names(meth)
 meth$platform
 
 #' `manifest` is a data.table with information about all the probes on the chip
-meth$manifest[80036:80041]
+meth$manifest[126659:126664]
 
 #' For example, `ilmn_id` is a unique identifier for each probe for EPICv2 datasets. 
 #' `probe_id` is the legacy identifier for each probe.  
@@ -41,8 +41,7 @@ meth$manifest[80036:80041]
 #' by these probes. Here, all the probes are CpG sites, i.e., "cg".
 
 #' QUESTION: What other type of loci besides CpG sites are there?
-#' ANSWER: There are also CHH sites and SNP probes
-#' ANSWER: EPICv2 additionally has nv probes
+#' ANSWER: There are also CHH sites (ch), SNPs (rs), and new variants (nv).
 
 #' The column `channel` tells us the color channel and Infinium probe design type.
 #' "Grn" and "Red" denote Infinium Type I, "Both" denotes Type II.
@@ -81,7 +80,7 @@ dim(meth$N)
 meth$N[290:292,1:3]
 
 #' QUESTION: How many probes are missing in the first sample?
-#' ANSWER: 11 probes have no beads present for either the unmethylated or
+#' ANSWER: 16 probes have no beads present for either the unmethylated or
 #' methylated type
  
 #' QUESTION: Why are for type II probes the entries in `N` and `V` are always the same.
