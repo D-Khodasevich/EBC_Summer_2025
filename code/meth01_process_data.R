@@ -137,7 +137,7 @@ detP = colSums(detP < 0.01, na.rm = TRUE)
 boxplot(split(detP, pheno$Sex), ylab = "# of detected Y chromosome probes")
 split(detP, pheno$Sex) |> sapply(median)
 
-#' Almost all of the 667 chromosome probes are called detected in the males
+#' Almost all of the 667 Y-chromosomal probes are called detected in the males
 #' whereas among females 141 probes are detected on average.
 #'
 #' QUESTION: Excluding the Y chromosome and missing probes, what is the percentage
@@ -210,7 +210,7 @@ pheno[Sex != predicted_sex, .(gsm, Sex, predicted_sex)]
 #' We flag this sample for exclusion
 pheno[Sex != predicted_sex,exclude:=TRUE]
 
-#' Let's also plot these data
+#' Let's also plot this data
 plot(Y ~ X, data = pheno, type = "n")
 text(Y ~ X, labels = Sex, col = ifelse(Sex == "m", 2, 1), data = pheno)
 #' The mislabeled sample can be easily spotted as it falls into the wrong cluster.
