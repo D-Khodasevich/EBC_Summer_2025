@@ -82,7 +82,7 @@ meth$N[290:292,1:3]
 #' QUESTION: How many probes are missing in the first sample?
 #' ANSWER: 16 probes have no beads present for either the unmethylated or
 #' methylated type
- 
+
 #' QUESTION: Why are for type II probes the entries in `N` and `V` are always the same.
 #' ANSWER: Because the same beads are used to measure methylated and unmethylated signal
 
