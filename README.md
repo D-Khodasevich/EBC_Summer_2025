@@ -2,7 +2,7 @@
 
 This repository contains materials for the [Summer 2025 Columbia University SHARP Training Program Epigenetics Bootcamp](https://www.publichealth.columbia.edu/academics/non-degree-special-programs/professional-non-degree-programs/skills-health-research-professionals-sharp-training/trainings/epigenetics). 
 
-## Labs (update with new HTML links)
+## Labs  
 
 [Lab 1: Importing data and data processing](https://html-preview.github.io/?url=https://github.com/D-Khodasevich/EBC_Summer_2025/blob/main/HTMLs/meth01_process_data.html)
 
